@@ -12,6 +12,16 @@ def index(request):
             a1 = f.readlines()
             a = a1[1::]
             for i in a:
-                print(i[0])
+                l = i.split(',')
+                # print(l[0], l[1], l[2])
+                
+                e = Entry()
+                e.pname = l[0]
+                e.pqty = l[1]
+                e.pprice = l[2]
+                e.save()
+                
+                
+                # print(l[2][:-1])
 
     return render(request, 'index.html')

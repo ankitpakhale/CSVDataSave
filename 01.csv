@@ -1,1 +1,4 @@
-Product name,product qty,product priceCar,2,150Bike,1,50Truck,3,300
+Product name,product qty,product price
+Apache,1,100
+Bike,2,200
+Car,3,300
