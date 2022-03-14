@@ -55,7 +55,7 @@ ROOT_URLCONF = 'datasave.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['G:/prgrms playground/Internships/Data Science/Django/CSVDataSave/datasave/data/template'],
+        'DIRS': ['/home/user5/Documents/ank10/csvdata/CSVDataSave/data/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

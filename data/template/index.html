@@ -74,7 +74,7 @@
 
     <div class="container">
         <div class="card">
-            <form method="POST">
+            <form method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 <input class="type-choose" type="file" name="file" id="file">        
                 <input class="submit" type="submit" value="Upload">
