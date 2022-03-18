@@ -33,8 +33,10 @@ def index(request):
         f = request.FILES.get('file').read()
         print(f)
         f=str(f).split('\\n')
+        
         # f=f.split(',')
         # count=0
+        
         for i in f[1:len(f)-1]:
             i=i.split(',')
             q = Entry.objects.filter(pname=i[0])
